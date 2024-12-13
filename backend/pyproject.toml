@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "prototype websockets backend"
+version = "0.1.0"
+description = ""
+authors = ["tyronejose <alt.tyronejose@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.1.4"
+django-cors-headers = "^4.6.0"
+channels = "^4.2.0"
+daphne = "^4.1.2"
+twisted = {extras = ["http2", "tls"], version = "^24.11.0"}
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
