@@ -1,3 +1,6 @@
+### Project
+package-lock.json
+
 ### Django ###
 *.log
 *.pot
