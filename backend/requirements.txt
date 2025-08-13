@@ -1,0 +1,10 @@
+Django==5.2.5
+djangorestframework==3.16.0
+django-cors-headers==4.7.0
+channels==4.2.2
+channels-redis==4.3.0
+PyJWT==2.10.1
+cryptography==45.0.6
+redis==6.0.0
+daphne==4.2.1
+psycopg2-binary==2.9.10
