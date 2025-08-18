@@ -11,9 +11,9 @@
 A complete real-time chat application built with Django (backend) and React (frontend). Features include user authentication, private messaging, real-time communication via WebSockets, and a clean, modern UI.
 <p>
 
-WebSockets are a communication protocol that enables bidirectional and persistent communication between a server and a client over a single TCP connection. Unlike traditional methods such as HTTP, where the client makes a request and the server responds, WebSockets allow real-time communication, where the server can send data to the client at any moment without requiring the client to make a new request.
-
 ![Main](main.webp)
+
+WebSockets are a communication protocol that enables bidirectional and persistent communication between a server and a client over a single TCP connection. Unlike traditional methods such as HTTP, where the client makes a request and the server responds, WebSockets allow real-time communication, where the server can send data to the client at any moment without requiring the client to make a new request.
 
 ## ✨ Features
 
